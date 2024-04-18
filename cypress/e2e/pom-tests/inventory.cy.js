@@ -11,7 +11,6 @@ describe('Inventory tests', () => {
         InventoryPage.verifyUIElements();
     })
 
-
     it('Check that in dropdown are available 4 options', () => {
         InventoryPage.dropdown.children('option').should('have.length', 4);
     });
